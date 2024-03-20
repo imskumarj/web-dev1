@@ -1,0 +1,124 @@
+body {
+font-family:'Poppins',
+sans-serif;
+}
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 54px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.icons {
+  margin-top: 10px; 
+  margin-bottom: 30px; 
+}
+
+.icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+hr.solid {
+  border-top: 3px solid red;
+  margin-right: 65px;
+  margin-left: 65px;
+  margin-top: 20px;
+  opacity: 0.15;
+}
+
+section {
+  padding: 20px 0;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+h2 {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+section p {
+  font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-right: 65px;
+  margin-left: 65px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-right: 65px;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+.contact p{
+  text-align: center;
+}
+
+.view-project-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.view-project-link:hover {
+  background-color: red;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
